@@ -10,7 +10,7 @@ function loadContent(section) {
     const content = document.getElementById('content');
     switch (section) {
         case 'HTML':
-            content.innerHTML = '<h2>Learn HTML</h2><p>This is the HTML tutorial content.</p>';
+            content.innerHTML = '<h2>Learn HTML</h2><p>This is the HTML tutorial content. coded in javascript</p>';
             break;
         case 'CSS':
             content.innerHTML = '<h2>Learn CSS</h2><p>This is the CSS tutorial content.</p>';
